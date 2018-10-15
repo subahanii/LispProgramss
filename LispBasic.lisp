@@ -18,8 +18,13 @@
 
 (print (nth 3 '(a b c d)) );print index value
 
+
+;funtion start
 (defun triple (n)(* n 3));EnterNow ,it define triple as 3 multiple
 (TRIPLE 4);3*4=12
+;function end 
+
+
 
 ;start1
 (let ((x 3))
@@ -37,5 +42,9 @@
                      (print x);9
                      (print "hello"));hello
 ;end2
-(setq a (read));take input from user
 
+ (dotimes (x 4 "jk") (print "helllooo"));for loop 4 times
+
+
+(setq a (read));take input from user
+ (print (+ 3 (setq a (read))));3+a(taken by user)

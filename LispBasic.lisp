@@ -24,6 +24,19 @@
 (TRIPLE 4);3*4=12
 ;function end 
 
+
+
+
+;start10
+ (defun add_using_let ( )
+  (let ((x 3) (y 4)) ; creating variables x and y
+     (+ x y)))
+      ;Now enter and write like below
+ (print(ADD_USING_LET));7
+;end 10
+
+
+
 ;start 0
  (let ((x 3))
                  (print x);3

@@ -24,6 +24,13 @@
 (TRIPLE 4);3*4=12
 ;function end 
 
+;start 0
+ (let ((x 3))
+                 (print x);3
+                 (setf x 9)
+                     (print (+ x 9));18
+                     (print "hello"))
+;end 0
 
 
 ;start1

@@ -78,16 +78,23 @@
 
 
 ;Program to find Square difference of two numbers
-(defun Sq (n)(* n n))  
+(defun Sq (n)(* n n))   
 
-(defun add_using_let (x y)
+(defun diff (x y)
   (if (> x y)
     (- (SQ x) (SQ y))
-    (- (SQ y) (SQ x))))     
+    (- (SQ y) (SQ x))))    
+    
+(defun add (x y)
+  (+ (SQ x) (SQ y)))
+
      
  (setq x ( read ))   
- (setq y ( read ))   
- (print(ADD_USING_LET x y))
+ (setq y ( read ))
+ (print "sum is:")
+ (write(ADD x y))
+ (print "Diff is:")
+ (write(DIFF x y))
 
 
 

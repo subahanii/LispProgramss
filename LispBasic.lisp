@@ -77,7 +77,7 @@
 
 
 
-;Program to find Squire difference of two numbers
+;Program to find Square difference of two numbers
 (defun Sq (n)(* n n))  
 (defun add_using_let (x y)
   (if (> x y)

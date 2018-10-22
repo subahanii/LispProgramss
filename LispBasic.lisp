@@ -74,3 +74,18 @@
 
 (setq a (read))    ;take input from user
  (print (+ 3 (setq a (read))))    ;3+a(taken by user)
+
+
+
+;Program to find Squire difference of two numbers
+(defun Sq (n)(* n n))  
+(defun add_using_let (x y)
+  (if (> x y)
+    (- (SQ x) (SQ y))
+    (- (SQ y) (SQ x))))    
+     
+ (print(ADD_USING_LET 3 1))
+
+
+
+
